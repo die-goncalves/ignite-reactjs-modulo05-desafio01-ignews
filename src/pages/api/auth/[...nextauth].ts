@@ -74,7 +74,7 @@ export default NextAuth({
                 q.Casefold(user.email)
               )
             )
-          )        
+          )
         )
         return true
       } catch {
